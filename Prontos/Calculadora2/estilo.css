@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;   
+}
+.calculadora{
+    background-image: url('fundoroxo.avif') ;
+    background-size: 300%;
+    margin: auto;
+    margin-top: 10vh;
+    width: 350px;
+    height: 700px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: solid;
+    box-shadow: 0px 5px 5px black;
+    border-width: 7px;
+}
+
+#cabeçalho{
+    background-image: url('partedecima1.png');
+    background-size: 100%;
+    width: 350px;
+    height: 34px;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;    
+}
+
+.displayFundo{
+    background-color: rgba(0, 0, 0, 0.342);
+    width: 350px;
+    height: 200px;
+    color: white;
+    font: normal 50pt Arial;
+    text-align: right;
+    overflow: hidden;
+    float: 1;
+}
+
+#titulo{
+    font: normal 15pt Verdana;
+    color: rgba(255, 255, 255, 0.137);
+    float: left;
+    text-align: center;
+    margin-left: 119px;
+    color: white;
+    height: 0px;
+    margin-top: 0px;
+}
+#titulo2{
+    font: normal 15pt Sans-serif;
+    color: rgba(0, 0, 0, 0);   
+}
+
+.display{
+    font: normal 45pt Arial;
+    float: right;
+    text-align: center;
+    margin-top: 75px;
+    margin-right: 20px;
+    color: white;
+    overflow: hidden;
+}
+
+.botoes-calculator{
+    margin-top: 10px;
+    gap: 0px;
+}
+
+.btn{
+    width: 84px;
+    height: 90px;
+    border-radius: 10px;
+    font-size: 20pt;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.062);
+}
+
+#ACTigual{
+    color: orange;
+}
+
+#ACTclearDisplay{
+    color: orange;
+}

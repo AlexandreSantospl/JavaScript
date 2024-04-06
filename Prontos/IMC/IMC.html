@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Numeros</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <section>
+        <div id="titulo">
+            <h1>Calculadora - IMC</h1>  
+        </div>
+        <div id="identificação">
+           Nome:
+           <input class="btn nome" type="text" name="nometxt" id="nometxt"> <br>
+           Altura:
+            <input class="btn altura" type="number" name="alturatxt" id="alturatxt"> <br>
+           Peso:
+           <input class="btn peso" type="number" name="pesotxt" id="pesotxt">
+        <div>
+            <input id="resultados" type="button" value="Calcular" onclick="calcular()">      
+        </div>
+        <div id="span">
+            <span id="rest">res</span>      
+        </div>
+        
+    </section>
+    <footer>
+        <p>&copy; AlexandreSantos</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
